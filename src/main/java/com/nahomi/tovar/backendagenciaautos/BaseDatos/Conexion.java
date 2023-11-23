@@ -16,7 +16,7 @@ public class Conexion {
                 if (connection == null) {
                     try {
                         String connectionUrl = "jdbc:mysql://localhost:3306/autos";
-                        connection = DriverManager.getConnection(connectionUrl, "root", "");
+                        connection = DriverManager.getConnection(connectionUrl, "root", "Regina123!");
                     } catch (SQLException e) {
                         throw new RuntimeException("Error conectando a la base de datos", e);
                     }
